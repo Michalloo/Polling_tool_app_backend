@@ -20,9 +20,9 @@ Test concluded using postman application:
         The response from the server will be all files stored inside database.
 
     Running test for "POST" method
-        While backend server is live and it is running at http://127.0.0.1:8000 paste inside UI interface of postman to method "POST" this link http://127.0.0.1:8000/add-answers/
+        While backend server is live and it is running at http://127.0.0.1:8000 paste inside UI interface of postman to method "POST" this link http://127.0.0.1:8000/add-answer/
         The input should be JSON format eg.
             {
                 "answer": "data you want to add"
             }
-        After running this command the data will be added to the database, maximum lenght of the string is set to 150 characters.
+        After running this command the data will be added to the database, maximum lenght of the string is set to 150 characters. 
