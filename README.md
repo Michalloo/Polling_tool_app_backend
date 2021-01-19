@@ -1,7 +1,7 @@
 # Polling_tool_app_backend
 
 This project contains files responsible for a backend of a web application that acts as a pooling tool. User after oppening of application can see two buttons, one is used to 
-navigate to page where user can answer a question, second one allows to see responses of previous users of that application. When users answers to question showed, thank you
+navigate to page where user can answer a question, second one allows to see responses of previous users of that application. When users answers to question, thank you
 message appears. Database used here is mongoDB that runs on AWS cloud, therefore internet connection is required to run this application succesfuly.
 
 Running backend server:
