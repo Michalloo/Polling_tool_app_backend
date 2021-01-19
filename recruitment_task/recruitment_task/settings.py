@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "rest_framework",
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True  ######## !!!!!!!!!!!!!!!!!!!!!!! specify
+CORS_ORIGIN_ALLOW_ALL = True  
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -78,16 +78,7 @@ WSGI_APPLICATION = "recruitment_task.wsgi.application"
 
 
 # Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
-"""
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
@@ -100,6 +91,7 @@ DATABASES = {
         },
     }
 }
+
 
 
 # Password validation

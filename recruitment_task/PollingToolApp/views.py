@@ -6,8 +6,6 @@ from django.http.response import JsonResponse
 from PollingToolApp.models import Response
 from PollingToolApp.serializers import ResponseSerializer
 
-# Create your views here.
-
 
 @csrf_exempt
 def responseApi(request, id=0):
