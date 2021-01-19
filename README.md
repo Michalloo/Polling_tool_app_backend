@@ -15,8 +15,7 @@ Running backend server:
   - Type in command line "python manage.py runserver". Backend server is now live, do not close the command line.
   
 Test concluded using postman application:
-
-  This backend uses methods "POST" and "GET" to retrieve and update data stored in database and correct implementation of those method is crucial for this app. 
+    This backend uses methods "POST" and "GET" to retrieve and update data stored in database and correct implementation of those method is crucial for this app. 
   
     Running test for "GET" method:
         While backend server is live and it is running at http://127.0.0.1:8000 paste inside UI interface of postman to method "GET" this link http://127.0.0.1:8000/show-answers/
