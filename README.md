@@ -1,8 +1,11 @@
 # Polling_tool_app_backend
 
-This project contains files responsible for a backend of a web application that acts as a pooling tool. User after oppening of application can see two buttons, one is used to 
+This project contains files responsible for a backend of a web application that acts as a pooling tool. User after oppening application can see two buttons, one is used to 
 navigate to page where user can answer a question, second one allows to see responses of previous users of that application. When users answers to question, thank you
 message appears. Database used here is mongoDB that runs on AWS cloud, therefore internet connection is required to run this application succesfuly.
+
+Project was generated with Django 3.1.5 and Python 3.7.2
+
 
 Running backend server:
 
@@ -26,6 +29,10 @@ Test concluded using postman application:
                 "answer": "data you want to add"
             }
         After running this command the data will be added to the database, maximum lenght of the string is set to 150 characters. 
+
+Running unitests:
+    
+   - While the virtual enviroment is activate, type in command line "python manage.py test". 
 
 
 Files responsible for frontend side of this application can be found here: https://github.com/Michalloo/Polling_tool_app_frontend/tree/master
