@@ -26,3 +26,6 @@ Test concluded using postman application:
                 "answer": "data you want to add"
             }
         After running this command the data will be added to the database, maximum lenght of the string is set to 150 characters. 
+
+
+Files responsible for frontend side of this application can be found here: https://github.com/Michalloo/Polling_tool_app_frontend/tree/master
