@@ -32,7 +32,7 @@ Test concluded using postman application:
 
 Running unitests:
     
-   - While the virtual enviroment is activate, type in command line "python manage.py test". 
+   - While the virtual enviroment is activate and you are in "backendPollingApp\recruitment_task" folder, type in command line "python manage.py test" and press enter. 
 
 
 Files responsible for frontend side of this application can be found here: https://github.com/Michalloo/Polling_tool_app_frontend/tree/master
